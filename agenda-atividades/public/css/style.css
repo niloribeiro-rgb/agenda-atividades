@@ -1,0 +1,45 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    display: grid;
+    grid-template-columns: repeat(2, 0.2fr);
+}
+button{
+    display: flex;
+    /* background-color: blue; */
+    border: 1px solid;
+    border-radius: 5px;
+    margin:3px;
+    justify-content: center;
+    align-items: center;
+    /* color: #ffffff; */
+    padding: 5px;
+    width: 100px;
+}
+button[type="submit"]{
+    background-color: blue;
+    color: #ffffff;
+}
+#btnLimpar{
+    
+    
+    border: 1px solid;
+    border-radius: 5px;
+    margin:3px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.info{
+    
+    border: 1px solid;
+    border-radius: 10px;
+    
+}
+#listaAtividades{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px;
+}
